@@ -1,0 +1,163 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    height: 0vh;
+}
+
+img{
+    height: 100%;
+    max-width: 22.5vw;
+}
+.odin{
+
+align-self: center;
+border: solid;
+}
+
+
+.contenedor{
+    border: fit;
+    display: flex;
+    height: 100vh;
+    max-width:50rem;
+    border: solid;
+    
+}
+.forms{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    max-width: inherit;
+    flex:1;
+    background-color: #f9fafb;
+    
+ 
+ }
+
+.enu{
+    font-size: 0.89rem;
+    font-weight:550;
+    margin-left: 2em;
+    margin-right: 5em;
+    margin-top: 7em;
+    margin-bottom: 0rem;
+    width: 28rem;
+    
+}
+.enu2{
+   
+    font-weight: 550;
+    margin-left: 2em;
+    margin-right: 5em;
+    margin-bottom: 2em;
+    font-size: 0.89rem;
+  
+    
+    
+}
+
+.lets{
+    font-size: small;
+    font-weight: bold;
+    margin-left: 2.4em;
+    letter-spacing: normal;
+   
+}
+
+.forma{
+    background-color: #ffffff;
+    height: fit-content;
+    max-width:34.15rem;
+    font-weight: 200;
+    font-size:0.55rem;
+    letter-spacing: 0.1rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 3px 2px #E5E7EB;
+    align-items: flex-start;
+   
+    padding-bottom: 1rem;
+  
+    
+   
+}
+
+
+
+.nombres,.info,.contra {
+   
+    gap: 0.25rem;
+    flex-direction: column;
+    margin-top:10px;
+    height: 2rem;
+    display: flex;  
+    flex-direction: row;
+   
+     
+    width: 33rem;
+    margin-left: 0.3rem;
+    
+    
+}
+
+
+.texto{
+    align-self: flex-start;
+    height: 0.9rem;
+    width: 9.5rem;
+    border: solid #E5E7EB 0.1rem;
+    border-radius: 3px;
+
+}
+
+label{
+    
+    height: fit-content;
+    width: fit-content;
+   font-size: smaller;
+    
+}
+
+.nombre1,.nombre2,.info1,.info2,.contra1,.contra2{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    width: fit-content;
+    align-items: flex-start;
+    margin-left: 3em;
+}
+
+
+
+.botones{
+   
+    width: fit-content;
+    margin-left: 1.95rem;
+    
+}
+
+.btn{
+    margin-top:1rem;
+    width: 9.2rem;
+    height: 1.9rem;
+    border-radius: 5px;
+    background-color: #596d48 ;
+    border: none;
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 0.74rem;
+    
+
+}
+a{
+    text-decoration: none;
+    color: #596d48;
+    font-weight: bolder;
+}
+.aly{
+    font-size: 0.7rem;
+    font-weight: 300;
+   margin-top: 1.4rem;
+    width: fit-content;
+   
+}
+

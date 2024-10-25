@@ -1,0 +1,197 @@
+
+
+body{
+    
+    padding: 0%;
+    margin: 0%;
+    padding-bottom: 0.2;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.973);;
+}
+.container{
+    
+    height: inherit;
+    min-height: inherit;
+    min-width: fit-content;                  
+    max-width: inherit;
+    display: flex;
+    margin: 0px;
+    background-color: #f9fafb;
+    
+    
+}
+
+
+
+
+.landingImg{
+    min-width: 18vw;
+    max-width: 23vw;
+   
+    height: 100vh;
+   
+}
+.logo{
+    max-width: 28.5vw;
+    min-width: fit-content;
+    position: relative;
+    
+}
+.header{
+    
+    position:absolute;
+    background-color: black;
+    color:white;
+    opacity: 0.6;
+    top: 20%;
+    left: 0%;
+    height: 5em;
+    width: 18.57em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0.5em;
+
+
+}
+.title{
+   
+    align-self: center;
+    font-size:3.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.odinLogo{
+    height: 5em;
+    align-self: center;
+     margin-top: 1em;
+    margin-bottom: 1em;
+
+}
+
+
+
+
+
+.formContainer{
+    font-family:  sans-serif;
+    max-width: inherit;
+    width: 35em;
+   
+ 
+    
+}
+.fText{
+    
+    font-size:medium;
+    font-weight: bold;
+    font-size: 0.9rem;
+    width: 32em;
+    margin-top: 6em;
+    margin-left: 2em;
+ 
+}
+.sText{
+    
+    font-size:medium;
+    font-weight: 550;
+    font-size: 0.9rem;
+    width: 32em;
+    margin-left: 2em;
+ 
+}
+.form{
+   
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.5em;
+    background-color: #ffffff;
+    margin-left: 0;
+    height: 12em;
+    box-shadow: 0px 2.89px 1px #E5E7EB;
+
+}
+.lets{
+    font-weight: 550;
+    font-size: 0.9em;
+    margin-left: 2em;
+}
+.names,.info,.passwords{
+   
+   
+    display: flex;
+    height: fit-content;
+    font-size: 0.5rem;
+    letter-spacing: 0.1ch;
+    margin: 0.5em;
+    justify-content: flex-start;
+    gap: 5.5em;
+    margin-left: 3.3em;
+
+}
+.info,.passwords{
+    margin-top: 1.6em;
+}
+.inp{
+    
+    border: #E5E7EB solid 1px;
+    border-radius: 0.2em;
+    box-shadow: none;
+    width: 11em;
+    height: 1.2em;
+
+}
+.name,.Lname,.infoE,.infoT,.fPass,.sPass{
+    
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+.sign{
+    width: fit-content;
+    margin-top: 1em;
+    
+}
+.btn{
+    border: none;
+    margin-left: 1.65em;
+    border-radius: 0.4em;
+    width: 10.5em;
+    height: 2.2em;
+    font-weight: 700;
+    background-color: #596D48;
+    color: #ffffff;
+    box-shadow: 1px 1px 3px #596D48;
+
+}
+a{
+text-decoration: none;
+color: #596D48;
+font-weight:900;
+}
+.Aredirect{
+    font-size: smaller;
+    margin-left: 1.65em;
+}
+
+
+
+
+
+.inp:focus{
+outline: 1px solid rgba(0, 174, 255, 0.973);
+box-shadow: 5px 5px 10px #E5E7EB;
+
+}
+
+
+.inp:invalid{
+    border-color: #ff0000;
+}
